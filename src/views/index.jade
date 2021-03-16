@@ -1,0 +1,27 @@
+extends layout
+
+block content
+  nav.navbar.navbar-inverse
+    .container-fluid
+      ul.nav.navbar-nav
+        li.active
+          a(href='/') Home
+        li
+          a(href='/about') JSA
+  .jumbotron.text-center
+    h1 JSA NodeJS/Express Bootstrap Page
+    p This is a responsive page! You can resize the page to see affect!
+  .container
+    .row
+      .col-sm-6
+        h3 Express
+        p JSA uses Express framework and Bootstrap to build a demo web application.
+        p
+          | Express.js is a web application framework for Node.js, it is free and open-source
+          | software under the MIT License.
+      .col-sm-6
+        h3 Bootstrap
+        p Bootstrap is a free front-end framework for faster and easier web development
+        p Bootstrap includes HTML and CSS based responsive design templates
+  .col-md-3
+    p.text-red testtest
